@@ -61,18 +61,18 @@ must be rectified before reproducing the results.
 
 ------------------------------------------------------------------------
 
-### Assessment of `nuCpos` performance vs. `NuPoP`
+### Assessment of nuCpos performance vs. NuPoP
 
 To compare `nuCpos` vs `NuPoP`, it’s unfair to compare chemical map
 trained `nuCpos` with MNase-trained `NuPoP` funcitons, as they are
 trained for different purpose. MNase trained model can provide insights
 into nucleosome positioning if MNase assay is performed, while chemical
-map trained tools cannot. Here I’m comparing `nuCpos` with
-`predNuPoP_chem` implemented in NuPoP in 2020. The latter was trained
-based on the chemical maps generated from my lab. I compare the
-performance of the two tools using yeast, and Spombe as demonstration
-below. Every step in the `README.md` file was followed. The following is
-Figure 1 from this paper by H. Kato , M.Shimizu and T. Urano:
+map trained tools cannot. Here we compare `nuCpos` with `predNuPoP_chem`
+implemented in NuPoP in 2020. The latter was trained based on the
+chemical maps generated from my lab. We compare the performance of the
+two tools using yeast, and Spombe as demonstration below. Every step in
+the `README.md` file was followed. The following is Figure 1 from this
+paper by H. Kato , M.Shimizu and T. Urano:
 
 ![](/Users/jon/Desktop/nuCpos_Figure1.PNG)
 
@@ -241,19 +241,12 @@ as shown in num.Summary and AUC.summary tables.**
 
 ## Conclusion and forward looking
 
-1.  `nuCpos` did not show superior performance than `NuPoP` as claimed
-    in their paper. Instead `NuPoP`performs significantly better than
-    the `nuCpos` when both using chemical-map trained model.
-2.  I urge the authors to rectify such misstatement or misleading
-    results and retract this paper since they completely ignored status
-    of the field or peer’s work when they published the paper (whether
-    intentionally or unintentionally), which does not meet the standard
-    of scientific publication of Springer Nature, and harm peer’s
-    reputation of work.
-3.  I urge the authors to stop copying my work and repackaging it and
-    distributing it.
+NuPoP (v2.4) shows significantly better performance than nuCpos (V1.14)
+in nucleosome positioning prediction when using chemical map trained
+models.
 
 ## Acknowledgement
 
-I want to thank the authors to provide the codes such that I can
-reproduce some of their results for this assessment.
+I want to thank the authors Hiroaki Kato , Mitsuhiro Shimizu and Takeshi
+Urano to provide the codes such that I can reproduce some of their
+results for this assessment.
