@@ -239,7 +239,7 @@ predictions. Virtually in every aspect including the AUC curves of every
 comparison, `NuPoP` predictions are significantly better than `nuCpos`,
 as shown in num.Summary and AUC.summary tables.**
 
-## Conclusion and forward looking
+## Conclusion
 
 NuPoP (v2.4) shows significantly better performance than nuCpos (V1.14)
 in nucleosome positioning prediction when using chemical map trained
