@@ -243,7 +243,7 @@ as shown in num.Summary and AUC.summary tables.**
 
 NuPoP (v2.4) shows significantly better performance than nuCpos (V1.14)
 in nucleosome positioning prediction when using chemical map trained
-models.
+models in yeast and Spombe.
 
 ## Acknowledgement
 
